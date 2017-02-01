@@ -1,0 +1,107 @@
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+}
+body {
+  line-height: 1.4rem;
+  font-family: Helvetica;
+}
+.company {
+  color: white;
+  background-color: cadetblue;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+div span {
+  padding: 2rem 1rem;
+  text-align: left;
+}
+ul li {
+  align-items: center;
+  text-align: right;
+  display: inline-block;
+  padding: 2rem 1rem;
+  font-family: Helvetica;
+}
+.main-banner {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25em;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.headline {
+  background-color: white;
+  color: black;
+  width: 25em;
+  padding: 5em 0.75em;
+  position: relative;
+  top: 1em;
+  left: 65em;
+}
+.headline h1 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 5rem 0.75rem;
+  background-color: white;
+
+}
+.supporting {
+  display: flex;
+  justify-content: center;
+
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 3rem;
+  width: 5rem;
+  height: 8rem;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+.service img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+img {
+  border-style: none;
+}
+.supporting.container {
+  display: flex;
+  justify-content: center;
+}
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+  padding-top: 25rem;
+}
+.title {
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  font-weight: bold;
+  color: white;
+  max-width: 10rem;
+}
+footer {
+  background-color: azure;
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+}
+footer img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
