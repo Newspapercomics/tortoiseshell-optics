@@ -13,10 +13,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 960px;
+  margin: 0 auto;
 }
 div span {
-  padding: 2rem 1rem;
-  text-align: left;
+  padding: 5rem 10rem;
+  font-family: Helvetica;
+}
+.whiteglass {
+  padding-right: 30rem;
+  display: flex;
+  align-items: center;
 }
 ul li {
   align-items: center;
@@ -24,13 +31,14 @@ ul li {
   display: inline-block;
   padding: 2rem 1rem;
   font-family: Helvetica;
+  font-weight: bold;
 }
 .main-banner {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 25em;
+  height: 35em;
 }
 .container {
   max-width: 960px;
@@ -56,7 +64,8 @@ ul li {
 .supporting {
   display: flex;
   justify-content: center;
-
+  padding-left: 5rem 5rem;
+  margin
 }
 .service {
   display: flex;
@@ -80,6 +89,12 @@ img {
 .supporting.container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: Helvetica;
+  max-width: 960px;
+  margin: 3em 0 0 0;
 }
 .info {
   width: 35%;
