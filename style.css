@@ -94,7 +94,6 @@ img {
 .info {
   width: 35%;
   margin-right: 5%;
-  flex-direction: column;
 }
 .info p {
   padding: 1rem 0;
@@ -103,12 +102,12 @@ img {
 }
 .title {
   background-color: cadetblue;
-  padding: 0.5rem 1.25rem;
+  padding: 0.5rem 5rem;
   font-weight: bold;
   color: white;
   max-width: 10rem;
   text-align: center;
-  width: 50%;
+  align-items: center;
 }
 footer {
   background-color: azure;
